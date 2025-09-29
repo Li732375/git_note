@@ -105,5 +105,5 @@ git config --help
 
 - 本地簡短顯示
 ```
-git config --h
+git config -h
 ```
