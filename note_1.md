@@ -88,3 +88,22 @@ git config --global init.defaultBranch
 ```
 
 ---
+
+## 指令說明查閱
+
+兩種形式方式輸出內容皆相同，以指令 `config` 為例:
+
+- 會開啟說明網頁
+```
+git help config
+```
+
+- 本地顯示
+```
+git config --help
+```
+
+- 本地簡短顯示
+```
+git config --h
+```
