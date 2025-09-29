@@ -44,9 +44,47 @@ git 目的為追蹤專案下的檔案異動 (加入、刪除、修改)。
 
 ---
 
-## 當前版本
+## 檢視當前版本
 
 於平台下載後，可以到如命令提示字元 (CMD)、git bash 等指令平台，檢視當前版本:
 ``` 
 git --version
 ```
+
+---
+
+## 全域設定
+
+### 使用者名稱
+``` 
+git config --global user.name "名字 (英文優先)"
+```
+
+> 若有空格，建議改為底線 ( Li cy => Li_cy)
+
+### 電子郵件
+``` 
+git config --global user.email "電子郵件"
+```
+
+### 預設主分支名稱
+``` 
+git config --global init.defaultBranch 名稱
+```
+
+> 預設名稱為 main，有的則是 master
+
+### 檢視當前設定
+
+    就是上述三個指令末段放空
+``` 
+git config --global user.name
+```
+```
+git config --global user.email
+```
+```
+git config --global init.defaultBranch
+```
+
+---
