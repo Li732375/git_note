@@ -71,7 +71,7 @@ git config --global user.email "電子郵件"
 git config --global init.defaultBranch 名稱
 ```
 
-> 預設名稱為 main，有的則是 master
+> 預設名稱為 main，過去部分版本曾採用 master
 
 ### 檢視當前設定
 
