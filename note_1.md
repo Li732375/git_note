@@ -67,7 +67,7 @@ git --version
 git config --global user.name "名字 (英文優先)"
 ```
 
-> 若名字中有空格，強烈建議改為底線 ( Li cy => Li_cy)
+> 若名字中有空格，強烈建議改為底線 ( Bill Gates => Bill_Gates)
 
 ### 電子郵件
 ``` 
@@ -105,12 +105,12 @@ git config --global init.defaultBranch
 git help config
 ```
 
-- 本地顯示說明
+- 顯示說明
 ```
 git config --help
 ```
 
-- 本地顯示簡短說明
+- 顯示簡短說明
 ```
 git config -h
 ```
