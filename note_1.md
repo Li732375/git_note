@@ -60,7 +60,7 @@ git --version
 git config --global user.name "名字 (英文優先)"
 ```
 
-> 若有空格，建議改為底線 ( Li cy => Li_cy)
+> 若名字中有空格，強烈建議改為底線 ( Li cy => Li_cy)
 
 ### 電子郵件
 ``` 
